@@ -1,0 +1,151 @@
+.header{
+    display:flex;
+    background-color: black;
+    width:100%;
+
+}
+.col1{
+    flex-basis: 65%;
+    top:0%;
+    padding:20px;
+    margin:50px;
+    margin-left: 5px;
+    background-color:black;
+    height:520px;
+}
+.row{
+    margin-top: 15px;
+    display:flex;
+    justify-content: space-between;
+    
+    
+}
+
+.img{
+    width:280px;
+    height:250px;
+    margin:2px;
+    border-radius: 5%;
+}
+ 
+.fa-style{
+    display:inline;
+    margin:10px;
+    border:1px solid rgba(0, 0, 0, 0.781);
+    border-radius:50%;
+    background-color:rgba(0, 0, 0, 0.534);
+    color:white;
+    object-fit: cover;
+    padding:0.2%;
+}
+
+
+
+.fa-style2{
+    display:inline;
+    background-color:black;
+    color:white;
+    object-fit: cover;
+    justify-items:right;
+    margin-right:20px;
+}
+.fa-color2{
+    color:blue;
+}
+ .fa-color{
+        color:red;  
+    
+}
+
+.right{
+    display:inline;
+    align-items:right;
+    justify-content:right;
+    margin-left:200px;
+    justify-content:space-between;
+}
+.col2{
+    display:flex;
+    flex-basis: 30%;
+    background-color:white;
+    
+    height:530px;
+    margin-left: -100px;
+    border-radius:2%;
+    margin-top:70px;
+    margin-right: 10px;
+    padding-left: 20px;
+    
+}
+.fa-cross{
+    float:right;
+    margin:-30px 25px;
+}
+.search{
+    display:flex;
+    border: 1px solid black;
+    width:350px;
+    height:50px;
+    margin:3px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.in-type{
+    border:none;
+}
+
+.p2{
+    margin-bottom:20px;
+    padding:40px 0.5px;
+
+}
+.pix{
+    display:flex;
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    float:left;
+    margin:-10px 15px;
+}
+.nm{
+    display:flex;
+    justify-content: space-between;
+    text-align: right;
+    margin-left:15%;
+}
+nav{
+    width:40%;
+    margin-top:20px;
+}
+.sr{
+    width:20px;
+    height: 20px;
+    padding:15px;
+    margin-top:0.5px;
+}
+.pix1{
+    width:30px;
+    height:20px;
+    padding:15px;
+    float:right;
+    margin:-50px 50px;
+}
+.pix2{
+    width:20px;
+    height:20px;
+    padding:15px;
+    float:right;
+    padding:-20px;
+    margin-bottom:-50px;
+    margin-left:-25px;
+    margin-top:-50px;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    justify-content:space-between;
+}
+.par{
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
